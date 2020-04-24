@@ -249,7 +249,7 @@ ul li a.menu:hover
     z-index: 100002;
     text-align: center;
     position: static;
-}/*
+}
 .Theme-2
 {
     letter-spacing: 5px;
@@ -290,7 +290,7 @@ ul li a.menu:hover
         filter: blur(0px);
         text-shadow: none;
     }
-}*/
+}
 /*
 --------------------------------------------------------
 -----------------------Card-----------------------------
@@ -1113,12 +1113,15 @@ svg
     {
         padding: 0px 0px 75px 0px;
     }
-    /*Anim(NOT)*/
+        /*Anim(NOT)*/
+    .Theme-1 .Theme-2
+    {
     -webkit-animation: none !important;
     -moz-animation: none !important;
     -o-animation: none !important;
     -ms-animation: none !important;
     animation: none !important;
+    }
 }
 /*--------------------------------------------*/
 /*--------------------------------------------*/
@@ -1196,12 +1199,15 @@ svg
     {
       padding: 0px 0px 150px 0px;
     }
-    /*Anim(NOT)*/
+            /*Anim(NOT)*/
+    .Theme-1 .Theme-2
+    {
     -webkit-animation: none !important;
     -moz-animation: none !important;
     -o-animation: none !important;
     -ms-animation: none !important;
     animation: none !important;
+    }
 }
 /*--------------------------------------------*/
 /*--------------------------------------------*/
@@ -1294,12 +1300,15 @@ svg
     {
       padding: 0px 0px 150px 0px;
     }
-    /*Anim(NOT)*/
+        /*Anim(NOT)*/
+    .Theme-1 .Theme-2
+    {
     -webkit-animation: none !important;
     -moz-animation: none !important;
     -o-animation: none !important;
     -ms-animation: none !important;
     animation: none !important;
+    }
 }
 /*--------------------------------------------*/
 /*--------------------------------------------*/
@@ -1334,6 +1343,15 @@ svg
         position: relative;
         width: 100%;
         height: 100%;
+    }
+            /*Anim(NOT)*/
+    .Theme-1 .Theme-2
+    {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
     }
 }
 @media (max-width: 290px)
@@ -1450,10 +1468,13 @@ svg
       transform: rotateX(270deg) translateY(75px);
       transform-origin: bottom center;
     }
-    /*Anim(NOT)*/
+        /*Anim(NOT)*/
+    .Theme-1 .Theme-2
+    {
     -webkit-animation: none !important;
     -moz-animation: none !important;
     -o-animation: none !important;
     -ms-animation: none !important;
     animation: none !important;
+    }
 }
