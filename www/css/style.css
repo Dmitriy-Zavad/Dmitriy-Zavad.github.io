@@ -1113,6 +1113,12 @@ svg
     {
         padding: 0px 0px 75px 0px;
     }
+    /*Anim(NOT)*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
 }
 /*--------------------------------------------*/
 /*--------------------------------------------*/
@@ -1190,7 +1196,12 @@ svg
     {
       padding: 0px 0px 150px 0px;
     }
-
+    /*Anim(NOT)*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
 }
 /*--------------------------------------------*/
 /*--------------------------------------------*/
@@ -1283,6 +1294,12 @@ svg
     {
       padding: 0px 0px 150px 0px;
     }
+    /*Anim(NOT)*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
 }
 /*--------------------------------------------*/
 /*--------------------------------------------*/
@@ -1433,6 +1450,10 @@ svg
       transform: rotateX(270deg) translateY(75px);
       transform-origin: bottom center;
     }
-
-    
+    /*Anim(NOT)*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
 }
