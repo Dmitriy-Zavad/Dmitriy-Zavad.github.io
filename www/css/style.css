@@ -249,7 +249,7 @@ ul li a.menu:hover
     z-index: 100002;
     text-align: center;
     position: static;
-}
+}/*
 .Theme-2
 {
     letter-spacing: 5px;
@@ -290,7 +290,7 @@ ul li a.menu:hover
         filter: blur(0px);
         text-shadow: none;
     }
-}
+}*/
 /*
 --------------------------------------------------------
 -----------------------Card-----------------------------
