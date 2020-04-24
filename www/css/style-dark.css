@@ -1,0 +1,108 @@
+body
+{
+    color: #fff;
+    background: #000;
+}
+
+/*Menu*/
+
+ul li a.menu
+{
+    color: #000;
+}
+ul li a.menu:hover
+{
+    color: #ff0;
+}
+ul
+{
+    background-color: #fff;
+}
+
+/*InfoAboutMe*/
+
+span
+{
+    animation: animate1 3s linear infinite; 
+}
+span:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+span:nth-child(2)
+{
+    animation-delay: 1s;
+}
+span:nth-child(3)
+{
+    animation-delay: 1.5s;
+}
+@keyframes animate1
+{
+    0%,100%
+    {
+        color: #fff;
+        filter: blur(1px);
+        text-shadow: 0 0 10px #B68000,
+                     0 0 20px #B68000,
+                     0 0 40px #B68000,
+                     0 0 80px #B68000,
+                     0 0 160px #B68000,
+                     0 0 360px #B68000,
+                     0 0 720px #B68000;
+    }
+    25%,75%
+    {
+        color: #000;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
+
+/*Marks*/
+
+tr td
+{
+    color: #000;
+}
+
+/*Images*/
+
+div.block-states
+{
+    color: #000;
+}
+div.block-states:after
+{
+    background: #fff;
+}
+div.block-states:before
+{
+    background: #fff;
+}
+
+/*Quotation*/
+
+blockquote.true p
+{
+    color: #fff;
+    text-shadow: rgba(5, 5, 5, 0.2) 3px 2px 3px;
+}
+blockquote.true cite 
+{
+    color: #000;
+}
+
+/*Fact*/
+
+.box-fact:before
+{
+    border: 5px solid #000;
+}
+
+/*Gallery*/
+
+.prev, .next
+{
+    color: darkblue;
+}
